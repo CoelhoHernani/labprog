@@ -36,7 +36,7 @@ LPalin *Adicionar (LPalin *lista, char *word) {
 }
 
 //função para remover "lixo" que poderá estar na palavra
-void *RemoveSimbolos (char *word) {
+void RemoveSimbolos (char *word) {
 
     int i, j;
 
