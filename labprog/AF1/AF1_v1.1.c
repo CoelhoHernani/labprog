@@ -9,6 +9,7 @@
 #include "palindromo.h"
 
 //Carregar ficherio .txt para verificar palindromos
+//Programa incompleto, falta código da adenda 1
 
 //função para adicionar palavra a lista
 LPalin *Adicionar (LPalin *lista, wchar_t *word) {

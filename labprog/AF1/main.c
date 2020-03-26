@@ -7,6 +7,9 @@
 #include <wchar.h>      //wide strings
 #include "palindromo.h"
 
+//Carregar ficherio .txt para verificar palindromos
+//Programa incompleto, falta código da adenda 1
+
 //função principal
 int main (int argc, char **argv) {
 
@@ -49,10 +52,10 @@ int main (int argc, char **argv) {
             break;
         case 2:
             lista = LerFicheiro(f, lista, opcao);
-            printf("aaa");
+            //incompleto
             break;
         case 3:
-            printf("vv");
+            //incompleto
             break;
     }
     
