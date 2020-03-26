@@ -28,16 +28,6 @@ int main (int argc, char **argv) {
         wprintf(L"Erro ao abrir ficheiro, ou número de argumentos inválido!");    //mensagem de erro em caso de não cumprir com condição
         return 1;
     }
-    
-    //Para efeitos de analise, verificação dos caracteres 
-    do
-    {
-         c = fgetwc (f);
-         n++;
-        putwc(c,stdout);
-        //printf("[c:%d s:%d]",c, sizeof(c));
-    } while (c != WEOF);
-    printf("\ncs:%d c:%d fs:%ld\n",sizeof(c), n, ftell(f));    
 
     do  {
         wprintf(L"Escolha o modo de verificação de palindromos que pretende fazer:\n1 - Palavras\n2 - Frases\n3 - Ambos\n");
